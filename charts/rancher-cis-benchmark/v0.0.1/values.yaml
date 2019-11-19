@@ -4,7 +4,13 @@
 
 replicaCount: 1
 
+# if owner is specified, it's used for the name of the configmap for results
 owner: ""
+# skip is used specify which tests to skip
+skip: ""
+# when debug=true, the plugin pods sleep for the time specified
+debug: false
+debugTime: "infinity"
 
 image:
   repository: rancher/security-scan
