@@ -13,8 +13,8 @@ debug: false
 debugTime: "infinity"
 
 image:
-  repository: rancher/security-scan
-  tag: v0.1.0
+  repository: leodotcloud/security-scan
+  tag: qa
   pullPolicy: Always
 
 nameOverride: ""
