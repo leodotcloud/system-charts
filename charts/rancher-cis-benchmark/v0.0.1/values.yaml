@@ -22,8 +22,8 @@ debugWorker: false
 debugTime: "infinity"
 
 image:
-  repository: rancher/security-scan
-  tag: v0.1.9
+  repository: leodotcloud/security-scan
+  tag: dev
   pullPolicy: Always
 
 nameOverride: ""
